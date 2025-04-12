@@ -126,7 +126,7 @@ def binaryToNumber(bin):
 
 def main():
   #Ask user if they want to encode/decode
-  UserInput = input("Do you want to encode or decode a message?:")
+  UserInput = input("Do you want to encode or decode a message? (encode/decode): ")
 
   if str(UserInput) == "encode":
     ImgInput = input("File to be encoded:")
